@@ -39,7 +39,8 @@
   margin: 0;
   padding: 0px;
 }
-.list-item, .title {
+.list-item,
+.title {
   list-style: none;
 }
 .input,.button{
@@ -103,7 +104,9 @@
   justify-content: space-between;
   align-items: center;
 }
-.list-item > .input, .list-item > .task, .list-item > .button {
+.list-item > .input,
+.list-item > .task,
+.list-item > .button {
   vertical-align: middle;
 }
 
